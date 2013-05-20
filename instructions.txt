@@ -1,0 +1,34 @@
+Making a move is easy. 
+
+The TL:DR version is: open move.html, make a move on the text representation of board, push changes.
+
+More indepth instructions:
+
+1. Make sure you are viewing the most current board by pulling in any changes
+
+	git pull origin master
+
+2. If you want to view the graphical board, view index.html in a browser. Or, skip to step 3.
+
+3. Open the "move.html" file in your favorite text editor, or in the command line:
+
+	nano move.html
+
+This file features a small text representation of the current board. Each piece is composed of two characters split by a dash. For each piece, the first character indicates which player the piece belongs to, and the second indicats what type of piece. For instance, "W-P" indicates a white pawn. The pieces are as follows:
+
+	P - Pawn
+	R - Rook (Castle)
+	N - Knight (Horse)
+	B - Bishop
+	Q - Queen
+	K - King
+
+Once you have decided what move you want to make, delete the three characters representing that piece (add three spaces to maintain the board's shape). Then, delete three spaces from the square you want to move to, and re-enter the three characters of the piece you just removed.
+
+4. Add, commit, and push.
+
+	git add move.html
+
+	git commit -m "take that!"
+
+	git push origin master
