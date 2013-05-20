@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -51,12 +53,25 @@ textarea {
   font-weight: 400; }
 
 .title {
-  color: #2c3e50;
+  color: #892b2b;
   font-family: Atreyu;
-  font-size: 4em; }
+  font-size: 6em; }
 
 body {
-  font: 16px/26px Helvetica, Helvetica Neue, Arial; }
+  font: 14px/22px "Merriweather Sans", sans-serif;
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", serif; }
+
+a {
+  color: #892b2b;
+  text-decoration: none; }
+  a:hover {
+    color: #ca5656; }
+
+.main article h1 {
+  font-size: 2em; }
 
 .wrapper {
   width: 90%;
@@ -66,12 +81,11 @@ body {
     ALL: Git Chess Theme
    =================== */
 .header-container {
-  padding: 20px 0;
-  background-color: #ecf0f1; }
-
-.footer-container,
-.main aside {
-  border-top: 20px solid #e44d26; }
+  padding: 40px 0; }
+  .header-container header {
+    width: 590px;
+    margin: 0 auto;
+    text-align: center; }
 
 /* ==============
     MOBILE: Menu
@@ -92,7 +106,8 @@ nav a {
 
 nav a:hover,
 nav a:visited {
-  color: white; }
+  color: white;
+  background-color: #ecf0f1; }
 
 nav a:hover {
   text-decoration: underline; }
@@ -103,15 +118,10 @@ nav a:hover {
 .main {
   padding: 30px 0; }
 
-.main article h1 {
-  font-size: 2em; }
-
 .main aside {
-  color: white;
   padding: 0px 5% 10px; }
 
 .footer-container footer {
-  color: white;
   padding: 20px 0; }
 
 /* ===============
@@ -123,31 +133,11 @@ nav a:hover {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (min-width: 480px) {
-  /* ====================
-      INTERMEDIATE: Menu
-     ==================== */
-  nav a {
-    float: left;
-    width: 27%;
-    margin: 0 1.7%;
-    padding: 25px 2%;
-    margin-bottom: 0; }
-
-  nav li:first-child a {
-    margin-left: 0; }
-
-  nav li:last-child a {
-    margin-right: 0; }
-
-  /* ========================
-      INTERMEDIATE: IE Fixes
-     ======================== */
-  nav ul li {
-    display: inline; }
-
-  .oldie nav a {
-    margin: 0 0.7%; } }
+@media only screen and (max-width: 480px) {
+  .header-container {
+    padding: 30px 0; }
+    .header-container header {
+      width: auto; } }
 @media only screen and (min-width: 768px) {
   /* ============
       WIDE: Menu

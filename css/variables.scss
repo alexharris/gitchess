@@ -4,9 +4,16 @@
     font-weight:400;
 }
 
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
 // Headers
 $titleFont: Atreyu;
+$headerFont: 'Roboto Slab', serif;
+$bodyFont: 'Merriweather Sans', sans-serif;
 
 // Colors
 $darkBlue: #2c3e50;
 $lighterGrey: #ecf0f1;
+$red: #892b2b;
+$lightRed: #ca5656;

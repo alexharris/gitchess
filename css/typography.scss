@@ -1,5 +1,27 @@
 .title {
-    color: $darkBlue;
+    color: $red;
     font-family: $titleFont;
-    font-size: 4em;
+    font-size: 6em;
+}
+
+body {
+    font: 14px/22px $bodyFont;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headerFont;
+}
+
+a {
+	color: $red;
+	text-decoration: none;
+	&:hover {
+		color: $lightRed;
+	}
+}
+
+
+.main article h1 {
+    font-size: 2em;
 }
