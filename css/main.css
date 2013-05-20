@@ -60,13 +60,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif; }
 
 a {
-  color: #892b2b;
+  color: #c0392b;
   text-decoration: none; }
   a:hover {
-    color: #ca5656; }
+    color: #e74c3c; }
 
 .title {
-  color: #892b2b;
+  color: #c0392b;
   font-family: Atreyu;
   font-size: 6em;
   line-height: 1em; }
@@ -90,30 +90,9 @@ a {
   .header-container h1.title {
     margin: 55px 0 0 0; }
 
-/* ==============
-    MOBILE: Menu
-   ============== */
-nav ul {
-  margin: 0;
-  padding: 0; }
-
-nav a {
-  display: block;
-  margin-bottom: 10px;
-  padding: 15px 0;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-  background: #e44d26; }
-
-nav a:hover,
-nav a:visited {
-  color: white;
+.footer-container,
+.main aside {
   background-color: #ecf0f1; }
-
-nav a:hover {
-  text-decoration: underline; }
 
 /* ==============
     MOBILE: Main
