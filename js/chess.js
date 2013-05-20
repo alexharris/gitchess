@@ -61,5 +61,5 @@ $.each(boardRows, function(index, element) {
 });
 var source   = $("#board-template").html();
 var template = Handlebars.compile(source);
-$('#board').html(template(boardContext));
+$('#load-board').html(template(boardContext));
 
