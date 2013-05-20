@@ -1,9 +1,5 @@
-.title {
-    color: $red;
-    font-family: $titleFont;
-    font-size: 6em;
-}
 
+// General Stuff
 body {
     font: 14px/22px $bodyFont;
     font-weight: 300;
@@ -19,6 +15,14 @@ a {
 	&:hover {
 		color: $lightRed;
 	}
+}
+
+// Specific Stuff
+.title {
+    color: $red;
+    font-family: $titleFont;
+    font-size: 6em;
+    line-height: 1em;
 }
 
 

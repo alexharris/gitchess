@@ -52,11 +52,6 @@ textarea {
   src: url(fonts/Atreyu.otf);
   font-weight: 400; }
 
-.title {
-  color: #892b2b;
-  font-family: Atreyu;
-  font-size: 6em; }
-
 body {
   font: 14px/22px "Merriweather Sans", sans-serif;
   font-weight: 300; }
@@ -69,6 +64,12 @@ a {
   text-decoration: none; }
   a:hover {
     color: #ca5656; }
+
+.title {
+  color: #892b2b;
+  font-family: Atreyu;
+  font-size: 6em;
+  line-height: 1em; }
 
 .main article h1 {
   font-size: 2em; }
@@ -86,6 +87,8 @@ a {
     width: 590px;
     margin: 0 auto;
     text-align: center; }
+  .header-container h1.title {
+    margin: 55px 0 0 0; }
 
 /* ==============
     MOBILE: Menu
@@ -135,17 +138,14 @@ nav a:hover {
    ========================================================================== */
 @media only screen and (max-width: 480px) {
   .header-container {
-    padding: 30px 0; }
+    padding: 20px 0; }
     .header-container header {
-      width: auto; } }
+      width: auto;
+      margin: 0; } }
 @media only screen and (min-width: 768px) {
   /* ============
       WIDE: Menu
      ============ */
-  .title {
-    float: left;
-    padding: 40px 0 0 40px; }
-
   .logo {
     float: left; }
 
