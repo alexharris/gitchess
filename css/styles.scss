@@ -9,20 +9,28 @@
    =================== */
 
 .header-container {
-    padding: 40px 0;
+    border-top: 10px solid $red;
+    padding: 40px 0 60px 0;
     header {
-        width: 590px;
+        width: 800px;
         margin: 0 auto;
         text-align: center;
     }
     h1.title {
-        margin: 55px 0 0 0;
+        margin: 120px 0 0 0;
     }
 }
 
-.footer-container,
 .main aside {
-    background-color: $lighterGrey;
+    .sidebar-icon {
+        padding: 10px 10px 10px 0;
+    }
+    section {
+        &:first-of-type {
+            margin-bottom: 20px;
+            @extend %light-red-block;
+        }
+    }
 
 }
 
@@ -40,6 +48,7 @@
 }
 
 .footer-container footer {
+    border-top: 2px solid $red;
     padding: 20px 0;
 }
 

@@ -59,11 +59,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif; }
 
+ul {
+  padding: 0px; }
+  ul li {
+    list-style-type: none; }
+
 a {
   color: #c0392b;
   text-decoration: none; }
   a:hover {
-    color: #e74c3c; }
+    color: #e29f98; }
 
 .title {
   color: #c0392b;
@@ -74,6 +79,18 @@ a {
 .main article h1 {
   font-size: 2em; }
 
+.main aside section:first-of-type {
+  border-top: 5px solid #c0392b;
+  text-align: center;
+  background-color: #e29f98; }
+  .main aside section:hover:first-of-type {
+    cursor: pointer;
+    background-color: #c0392b; }
+    .main aside section:hover:first-of-type a {
+      color: #e29f98; }
+  .main aside section:first-of-type a:hover {
+    color: #e29f98; }
+
 .wrapper {
   width: 90%;
   margin: 0 5%; }
@@ -82,17 +99,19 @@ a {
     ALL: Git Chess Theme
    =================== */
 .header-container {
-  padding: 40px 0; }
+  border-top: 10px solid #c0392b;
+  padding: 40px 0 60px 0; }
   .header-container header {
-    width: 590px;
+    width: 800px;
     margin: 0 auto;
     text-align: center; }
   .header-container h1.title {
-    margin: 55px 0 0 0; }
+    margin: 120px 0 0 0; }
 
-.footer-container,
-.main aside {
-  background-color: #ecf0f1; }
+.main aside .sidebar-icon {
+  padding: 10px 10px 10px 0; }
+.main aside section:first-of-type {
+  margin-bottom: 20px; }
 
 /* ==============
     MOBILE: Main
@@ -104,6 +123,7 @@ a {
   padding: 0px 5% 10px; }
 
 .footer-container footer {
+  border-top: 2px solid #c0392b;
   padding: 20px 0; }
 
 /* ===============

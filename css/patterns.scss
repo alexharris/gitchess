@@ -1,0 +1,17 @@
+%light-red-block {
+	border-top: 5px solid $red;
+	text-align: center;
+	background-color: $lightRed;
+	&:hover {
+		cursor: pointer;
+		background-color: $red;
+		a {
+			color: $lightRed;
+		}
+	}
+	a {
+		&:hover {
+			color: $lightRed;
+		}
+	}
+}
