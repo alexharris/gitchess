@@ -1,0 +1,7 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Alex Harris -- Contributor  -- @alexharris6
+    Lucas Thurston -- Contributor -- @mellowestbro

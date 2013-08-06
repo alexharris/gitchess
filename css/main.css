@@ -3,6 +3,7 @@
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
+
 html,
 button,
 input,
@@ -278,4 +279,7 @@ a {
 
   h2,
   h3 {
-    page-break-after: avoid; } }
+    page-break-after: avoid; 
+  } 
+
+  }
