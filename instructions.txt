@@ -8,7 +8,7 @@ More indepth instructions:
 
 	git pull origin master
 
-2. If you want to view the graphical board, view index.html in a browser. Or, skip to step 3.
+2. If you want to view the graphical board, view board.html in a browser. Or, skip to step 3.
 
 3. Open the "move.html" file in your favorite text editor, or in the command line:
 
