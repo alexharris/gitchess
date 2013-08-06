@@ -1,0 +1,46 @@
+
+/* ==============
+    Board Styles
+   ============== */
+
+.board {
+    display: block;
+    width: 402px; /* Huh? Why does this suddenly have to be 403? */
+    margin: 100px auto;
+    font-size: 20px;
+}
+
+.row {
+    border: 1px solid #000;
+    display: block;
+}
+
+.row .space {
+    float: left;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.row:nth-child(even) .space:nth-child(odd) {
+    background-color: #000;
+}
+
+.row:nth-child(odd) .space:nth-child(even) {
+    background-color: #000;
+}
+
+.piece {
+    text-align: center;
+    top:10px;
+    position: relative;
+     display: block;
+}
+
+.player1 {
+    color: #f00;
+}
+
+.player2 {
+    color: #00BFFF;
+}
